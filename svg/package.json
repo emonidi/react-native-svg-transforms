@@ -1,0 +1,29 @@
+{
+  "name": "svg",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "d3": "^4.13.0",
+    "d3-interpolate-path": "^2.0.1",
+    "pasition": "^1.0.1",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-svg": "^6.3.1",
+    "react-native-svg-animations": "^0.1.5",
+    "vivus": "^0.4.3"
+  }
+}
